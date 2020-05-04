@@ -1,0 +1,104 @@
+body
+    {font-family: "Montserrat";}
+
+/************************************* Tital section **************************/
+
+#title 
+    {font-weight: 400;
+    color: #fff;
+    background-color: #FF4c68;}
+
+
+.container-fluid
+    {padding: 3% 15% 7%;}
+
+
+.navbar
+    {padding: 0 0 4.5rem;}
+
+
+.navbar-brand
+    {font-family: "Ubuntu";
+    font-size: 1.75rem;
+    font-weight: bold;}
+
+
+.nav-item
+    {padding: 0 18px;}
+
+
+.nav-link
+    {font-size: 1.2rem;
+    font-family: "Montserrat";}
+
+
+.tital-image
+    {width: 80%;
+    transform: rotate(5deg);
+    position: absolute;
+    right: 15%;}
+
+
+/*************************** Photo section **********************/
+
+
+#sagaai
+    {text-align: center;
+    background-color: rgb(248, 223, 223);
+    color: #fff;
+    position: relative;
+    z-index: 1;}
+
+
+#shaadi
+    {text-align: center;
+    background-color: #FF4c68;
+    color: #fff;}
+
+
+#griha
+    {text-align: center;
+    background-color: rgb(248, 223, 223);
+    color: #fff;}
+
+    
+.carousel-item
+    {padding: 7% 15%;}
+
+
+.testimonial1
+    {width: 50%;
+    margin: 20px;}
+
+.Food-Cart
+    {width: 50%;}
+
+
+    
+/***************************** Footer Section ***********************************/
+
+
+#footer
+    {background-color: #FF4c68;
+    padding: 2% 1%;
+    color: #fff;
+    text-align: center}
+
+.social-icon
+    {margin: 20px 10px}
+
+
+
+/*************************************** Media *********************************/
+
+
+@media (max-width: 1028px)
+    {
+    #tital
+        {text-align: center;}
+    
+    .tital-image
+        {position: static;
+        transform: rotate(0);}
+    
+    }
